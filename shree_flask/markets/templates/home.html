@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {%block title%} Home page {% endblock %} {% block
+content%}
+<body class="text-center">
+  <div class="container" style="max-width: 500px">
+    <img
+      class="mb-4"
+      src="https://res.cloudinary.com/jimshapedcoding/image/upload/v1597332609/android-icon-192x192_ove2a7.png"
+      alt=""
+    />
+    <h2 class="h3 mb-3 font-weight-normal">WELCOME TO OUR MARKETING PAGE</h2>
+    <br />
+    <a
+      class="btn btn-lg btn-block btn-primary"
+      href="{{ url_for('market_page')}}"
+    >
+      Get Started
+    </a>
+  </div>
+</body>
+{% endblock %}
